@@ -1,0 +1,33 @@
+@media (max-width: 660px) {
+    .navbar-ul {
+        visibility: hidden;
+    }
+    .navbar {
+        text-align: left;
+    }
+    .navbar-name {
+        margin-left: 60px;
+    }
+    .navbar-ul.active {
+        visibility: visible;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .navbar-toggle {
+        padding: 10px 10px;
+        position: fixed;
+        width: 60px;
+        height: 50px;
+        font-size: 26px;
+        font-family: fontAwesome;
+    }
+
+    .navbar-toggle:before {
+        content: '\f0c9';
+    }
+    .navbar-toggle.active:before
+    {
+        content: '\f00d';
+    }
+}
