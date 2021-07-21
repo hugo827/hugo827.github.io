@@ -117,7 +117,18 @@ body {
 .title {
     width: 100%;
     text-align: center;
+    margin-top: 60px;
 }
+.title-h1 {
+    font-size: 38px;
+    margin-bottom: 0;
+}
+.tiret {
+    border: 2px solid blue;
+    width: 75px;
+    margin: 0 auto;
+}
+
 .box-about-left-top {
     display: inline-flex;
 }
@@ -206,3 +217,184 @@ body {
 /* end code for button cv */
 
 
+/* star code for resume */
+
+.container {
+    width: 50%;
+    margin: 30px auto;
+    /*display: inline-flex;*/
+}
+
+.resume-section {
+    border-left: 4px solid black;
+    position: relative;
+}
+
+.resume-title {
+    color: black;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.bullet {
+    margin: 0 0;
+    padding: 0 0;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    transform: translateX(-42px);
+    border-radius: 50%;
+}
+
+.resume-titre {
+    padding: 0 0 0 50px;
+    margin: 0 0;
+    color: orange;
+    font-size: 16px;
+    width: 1000px;
+    height: auto;
+}
+
+.resume-content {
+    padding: 0 0 30px 30px;
+}
+
+.resume-date {
+    font-size: 14px;
+    background-color: grey;
+    max-width: 150px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 20px 25px;
+}
+.resume-lieu {
+    margin: 20px 25px;
+}
+
+/* end code for resume */
+
+
+
+/* start code for projet */
+
+.projet {
+    margin: 0 0 0 15%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-projet {
+
+    margin: 20px 20px 20px 0;
+    height: 275px;
+    width:  400px;
+    border: 1px solid green;
+}
+
+.box-projet-img {
+    height: 70%;
+    width: 100%;
+    background: url("img/home.jpg");
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.box-projet-info{
+    height: 30%;
+    background-color: white;
+    color: black;
+}
+
+.box-projet-info h5 {
+    margin: 0 0;
+    padding:  10px 0 0 10px;
+    color: blue;
+    font-size: 24px;
+}
+
+.box-projet-info p {
+    color: grey;
+    padding: 0 10px;
+}
+
+.box-projet:hover {
+    box-shadow: -1em 0 1em #474646;
+    transform: scale(1.1);
+    margin: 40px 40px 40px 0;
+}
+/* end code for projet */
+
+/* footer */
+
+.foot {
+    height: 150px;
+    margin: 0 0;
+    text-align: center;
+    background: linear-gradient(
+            rgba(92, 90, 90, 0.6),
+            rgba(117, 121, 158, 0.6)
+    ), url("img/forest-2.jpg") no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.social {
+    display: inline-flex;
+    margin: 30px 0 0 0;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+    color: white;
+
+}
+.icon i {
+    padding: 10px 0;
+    font-size: 26px;
+}
+
+.icon:hover {
+    background-color: black;
+}
+
+/* end of footer */
+
+
+
+/* middle content */
+
+.middle {
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(
+            rgba(92, 90, 90, 0.6),
+            rgba(117, 121, 158, 0.6)
+    ), url("img/forest.jpg") no-repeat;
+    animation: scroll 30s infinite forwards;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+@keyframes scroll {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 0 100%;
+    }
+    99.9% {
+        bottom:0;
+        padding-top:0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+/* end of middle content */
