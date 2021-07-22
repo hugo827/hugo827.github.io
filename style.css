@@ -47,7 +47,7 @@ body {
 }
 
 .navbar-a-hover:hover {
-    color: darkviolet;
+    color: blue;
 }
 
 .navbar-toggle {
@@ -61,7 +61,7 @@ body {
 .banner-area{
     width:100%;
     height:100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/home.jpg);
+    background-image: url(img/home.jpg); /*linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), */
     background-size:cover;
 }
 
@@ -148,6 +148,33 @@ body {
     padding: 10px 10px 10px 0;
 }
 
+.red-box {
+    padding: 5px 5px;
+    background-color: #cb1313;
+    border-radius: 5px;
+    float: right;
+}
+.x {
+    margin: 0 30px;
+    padding: 0 0;
+    list-style-type: none;
+    width: 100%;
+}
+.z {
+    margin: 0 0;
+    padding: 10px 10px;
+    width: 90%;
+}
+.z:before {
+    float:left;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . .";
+}
+
+
 .profil-img {
     border-radius: 5px;
 }
@@ -201,6 +228,8 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
 }
+
+
 .btn-rotation a:before{
     color: #fff;
     background: #000;
@@ -231,8 +260,7 @@ body {
 }
 
 .resume-title {
-    color: black;
-    margin: 0 0 20px 0;
+    margin: 20px 0 20px 0;
     font-size: 24px;
     text-decoration: underline;
 }
@@ -242,13 +270,13 @@ body {
     padding: 0 0;
     height: 20px;
     width: 20px;
-    background-color: white;
+    background-color: black;
     transform: translateX(-42px);
     border-radius: 50%;
 }
 
 .resume-titre {
-    padding: 0 0 0 50px;
+    padding: 0 0 0 40px;
     margin: 0 0;
     color: orange;
     font-size: 16px;
@@ -262,7 +290,7 @@ body {
 
 .resume-date {
     font-size: 14px;
-    background-color: grey;
+    background-color: #5e5c5c;
     max-width: 150px;
     text-align: center;
     padding: 5px 0;
@@ -274,14 +302,50 @@ body {
 
 /* end code for resume */
 
+/* start code for competence */
+
+.box-competence {
+    margin: 0 0 0 25%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tuile {
+    margin: 30px 20px;
+    height: 300px;
+    width: 200px;
+    background-color: #1b1b2d;
+    border-radius: 10px;
+}
+
+.tuile h1 {
+    text-align: center;
+    margin: 15px 0 5px 0;
+}
+
+.tuile ul {
+    list-style-type: none;
+    margin: 25px 0 0 0;
+    padding: 0 0 0 0;
+}
+.tuile ul li {
+    margin: 15px 15px;
+    padding: 0 0 0 0;
+}
+
+
+/* end code for competence */
 
 
 /* start code for projet */
 
 .projet {
-    margin: 0 0 0 15%;
+    margin: 0 0 0 17%;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+.projet-a {
+    text-decoration: none;
 }
 
 .box-projet {
@@ -289,18 +353,24 @@ body {
     margin: 20px 20px 20px 0;
     height: 275px;
     width:  400px;
-    border: 1px solid green;
 }
 
 .box-projet-img {
     height: 70%;
     width: 100%;
-    background: url("img/home.jpg");
+    margin: 0 0;
+    padding: 0 0;
+}
+.box-projet-img img {
+    height: 100%;
+    width: 100%;
     margin: 0 0;
     padding: 0 0;
 }
 
 .box-projet-info{
+    margin: 0 0;
+    padding: 0 0 0 0 ;
     height: 30%;
     background-color: white;
     color: black;
@@ -309,7 +379,7 @@ body {
 .box-projet-info h5 {
     margin: 0 0;
     padding:  10px 0 0 10px;
-    color: blue;
+    color: black;
     font-size: 24px;
 }
 
@@ -319,9 +389,14 @@ body {
 }
 
 .box-projet:hover {
-    box-shadow: -1em 0 1em #474646;
+   /* box-shadow: -1em 0 1em #474646; */
     transform: scale(1.1);
     margin: 40px 40px 40px 0;
+}
+
+.box-projet-info-date {
+    color: blue;
+    font-style: italic;
 }
 /* end code for projet */
 
