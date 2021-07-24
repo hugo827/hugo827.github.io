@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 400px) {
 
     /* -------------------- nav -------------------*/
     .navbar {
@@ -51,21 +51,83 @@
 
 
     /* -------------------------- fiche about -------------------------------- */
+    .box-about {
+        width: 90%;
+        margin: 40px 0 40px 5% ;
+        padding: 0 0;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .box-about-left {
+        width: 100%;
+        padding: 0 0;
+    }
+
+    .box-about-right {
+        width: 95%;
+        padding: 20px 5px;
+        text-align: justify;
+    }
+
+    .box-about-left-top {
+        display: inline-block;
+        margin: 5px 5px;
+        padding: 0 0;
+    }
+    .profil-img {
+        padding-left: 75px;
+    }
+
+    .profil-table {
+        margin: 0 0 0 0;
+    }
+
+    .x {
+        margin: 0 5px;
+        padding: 0 0 ;
+        width: 95%;
+    }
+    .z {
+        margin: 0 0;
+        padding: 10px 0;
+        width: 100%;
+    }
+    .z:before {
+        content: ". . . . . . . . . . . . . . . . . . . . "
+        ". . . . . . . . . . . .";
+    }
+
+
+    .profil-title {
+        margin: 0 5%;
+        font-size: 42px;
+    }
+
 
     /* star code for resume */
     .container {
-        width: 50%;
-        margin: 30px 10%;
-        /*display: inline-flex;*/
+        width: 85%;
+        margin: 0 0 0 0;
+        padding: 30px 0 30px 30px;
     }
     .resume-titre {
-        width: 600px;
+        width: 200px;
+        height: 60px;
+        overflow: hidden;
     }
 
+    .resume-lieu {
+        width: 200px;
+    }
+
+    .resume-content ul li {
+        width: 200px;
+    }
     /* start code for competence */
 
     .box-competence {
-        margin: 0 0 0 31%;
+        margin: 0 0 0 1%;
         display: inline-block;
         grid-template-columns: none;
     }
@@ -74,8 +136,15 @@
     /* start code for projet */
 
     .projet {
-        margin: 0 0 0 24%;
+        margin: 0 0 0 0;
         display: inline-block;
         grid-template-columns: none;
+    }
+
+    .box-projet {
+
+        margin: 20px 20px 20px 0;
+        height: 200px;
+        width:  300px;
     }
 }
