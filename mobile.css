@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
     /* -------------------- nav -------------------*/
     .navbar {
@@ -95,7 +95,7 @@
     }
     .z:before {
         content: ". . . . . . . . . . . . . . . . . . . . "
-        ". . . . . . . . . . . .";
+        ". . . . . . . . . . . . . . . . . .";
     }
 
 
@@ -127,24 +127,35 @@
     /* start code for competence */
 
     .box-competence {
-        margin: 0 0 0 1%;
+        margin: 20px 0;
+        width: 100%;
         display: inline-block;
         grid-template-columns: none;
     }
+    .tuile {
+        margin: 20px auto;
 
+    }
 
     /* start code for projet */
 
     .projet {
-        margin: 0 0 0 0;
+        width: 100%;
+        margin: 0 0;
         display: inline-block;
         grid-template-columns: none;
     }
 
     .box-projet {
-
         margin: 20px 20px 20px 0;
         height: 200px;
         width:  300px;
+    }
+    .projet-box {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .projet-a {
+        margin: 0 auto;
     }
 }

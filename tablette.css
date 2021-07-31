@@ -1,81 +1,160 @@
-@media (min-width:401px) AND (max-width: 900px) {
+@media (min-width:601px) AND (max-width: 1000px) {
 
-    /* -------------------- nav -------------------*/
-    .navbar {
-        padding: 0 0;
-    }
-    .navbar-ul {
-        visibility: hidden;
-        display: none;
-    }
+        /* -------------------- nav -------------------*/
+        .navbar {
+            padding: 0 0;
+        }
+        .navbar-ul {
+            visibility: hidden;
+            display: none;
+        }
 
-    .navbar-ul.active {
-        visibility: visible;
-        display: inline-block;
-        margin: 0 0;
-        width: 100%;
-        height: 100vh;
-        transition: all 500ms;
-    }
+        .navbar-ul.active {
+            visibility: visible;
+            display: inline-block;
+            margin: 0 0;
+            width: 100%;
+            height: 100vh;
+            transition: all 500ms;
+        }
 
-    .navbar-il {
-        padding: 15px 0;
-    }
+        .navbar-il {
+            padding: 15px 0;
+        }
 
-    .navbar-name {
-        padding: 25px 50px;
-        margin: 0 0;
-        float: left;
-    }
+        .navbar-name {
+            padding: 25px 50px;
+            margin: 0 0;
+            float: left;
+        }
 
-    .navbar-toggle {
-        display: block;
-        position: fixed;
-        padding: 25px 25px;
-        font-size: 24px;
-        width: 60px;
-        height: 50px;
-        font-family: fontAwesome;
-        cursor: pointer;
-        z-index: 1000;
-    }
+        .navbar-toggle {
+            display: block;
+            position: fixed;
+            padding: 25px 25px;
+            font-size: 24px;
+            width: 60px;
+            height: 50px;
+            font-family: fontAwesome;
+            cursor: pointer;
+            z-index: 1000;
+        }
 
-    .navbar-toggle:before {
-        content: '\f0c9';
-    }
+        .navbar-toggle:before {
+            content: '\f0c9';
+        }
 
-    .navbar-toggle.active:before {
-        content: '\f00d';
-    }
-
-
-
-    /* -------------------------- fiche about -------------------------------- */
-
-    /* star code for resume */
-    .container {
-        width: 50%;
-        margin: 30px 10%;
-        /*display: inline-flex;*/
-    }
-    .resume-titre {
-        width: 500px;
-    }
-
-    /* start code for competence */
-
-    .box-competence {
-        margin: 0 0 0 31%;
-        display: inline-block;
-        grid-template-columns: none;
-    }
+        .navbar-toggle.active:before {
+            content: '\f00d';
+        }
 
 
-    /* start code for projet */
+
+        /* -------------------------- fiche about -------------------------------- */
+        .box-about {
+            width: 90%;
+            margin: 40px 0 40px 5%;
+            padding: 0 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .box-about-left {
+            width: 50%;
+            padding: 0 0;
+        }
+
+        .box-about-right {
+            width: 50%;
+            padding: 20px 10px 20px 5px ;
+            text-align: justify;
+        }
+
+        .box-about-left-top {
+            display: inline-block;
+            margin: 5px 5px;
+            padding: 0 0;
+            text-align: center;
+        }
+        .profil-img {
+            border: 1px solid #3D3D3D;
+        }
+
+        .profil-table {
+            margin: 0 0 0 0;
+        }
+
+        .x {
+            margin: 0 5px;
+            padding: 10px 0 ;
+            width: 95%;
+        }
+        .z {
+            margin: 0 0;
+            padding: 10px 0;
+            width: 100%;
+        }
+        .z:before {
+            content: ". . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . . . .";
+        }
+
+        .profil-title {
+            margin: 0 5%;
+        }
+
+
+
+        /* star code for resume */
+        .container {
+            width: 80%;
+            margin: 0 0;
+            padding: 0 0 60px 60px;
+        }
+        .resume-titre {
+            width: 500px;
+            height: 80px;
+        }
+
+        .resume-lieu {
+            width: 200px;
+        }
+
+        .resume-content ul li {
+            width: 200px;
+        }
+
+        /* start code for competence */
+
+        .box-competence {
+            margin: 20px 0 20px 20%;
+            width: 60%;
+            display: inline-grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .tuile {
+            margin: 20px 10px;
+
+        }
+
+        /* start code for projet */
 
     .projet {
-        margin: 0 0 0 24%;
+        width: 100%;
+        margin: 0 0;
         display: inline-block;
         grid-template-columns: none;
+    }
+
+    .box-projet {
+        margin: 20px 20px 20px 0;
+        height: 275px;
+        width:  400px;
+    }
+    .projet-box {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .projet-a {
+        margin: 0 auto;
     }
 }

@@ -316,7 +316,7 @@ body {
 /* start code for competence */
 
 .box-competence {
-    margin: 0 0 0 20%;
+    margin: 0 0 0 19%;
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -327,7 +327,9 @@ body {
     width: 250px;
     background-color: #1b1b2d;
     border-radius: 10px;
+    border: 1px solid #32326a;
 }
+
 
 .tuile h1 {
     width: 70px;

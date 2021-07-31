@@ -23,11 +23,11 @@
             <div class="navbar">
                 <a class="navbar-name navbar-a" href="#home"> Janssens Hugo </a>
                 <ul class="navbar-ul liste-type-none">
-                    <a class="navbar-a navbar-a-hover" href="#home"><li class="navbar-il">Accueil</li></a>
-                    <a class="navbar-a navbar-a-hover" href="#about"><li class="navbar-il">A propos</li></a>
-                    <a class="navbar-a navbar-a-hover" href="#resume"><li class="navbar-il">Resume</li></a>
-                    <a class="navbar-a navbar-a-hover" href="#competences"><li class="navbar-il">Competences</li></a>
-                    <a class="navbar-a navbar-a-hover" href="#projects"><li class="navbar-il">Projets</li></a>
+                    <a class="navbar-a navbar-a-hover" href="#home" onclick="menuToggle()"><li class="navbar-il">Accueil</li></a>
+                    <a class="navbar-a navbar-a-hover" href="#about" onclick="menuToggle()"><li class="navbar-il">A propos</li></a>
+                    <a class="navbar-a navbar-a-hover" href="#resume" onclick="menuToggle()"><li class="navbar-il">Resume</li></a>
+                    <a class="navbar-a navbar-a-hover" href="#competences" onclick="menuToggle()"><li class="navbar-il">Competences</li></a>
+                    <a class="navbar-a navbar-a-hover" href="#projects" onclick="menuToggle()"><li class="navbar-il">Projets</li></a>
                 </ul>
             </div>
         </div>
@@ -236,40 +236,45 @@
                 <div class="tiret"></div>
             </div>
             <div class="projet">
-                <a class="projet-a" href="https://github.com/hugo827/hugo827.github.io" target="_blank">
-                    <div class="box-projet">
+                <div class="projet-box">
+                    <a class="projet-a" href="https://github.com/hugo827/hugo827.github.io" target="_blank">
+                        <div class="box-projet">
+                                <div class="box-projet-img">
+                                    <img src="img/projet-1.PNG"/>
+                                </div>
+                                <div class="box-projet-info">
+                                    <h5>Portefolio</h5>
+                                    <p><span class="box-projet-info-date"> Projet personnel</span> / Juillet 2021</p>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="projet-box">
+                    <a class="projet-a" href="https://github.com/hugo827/PDNI2020-2021" target="_blank">
+                        <div class="box-projet">
                             <div class="box-projet-img">
-                                <img src="img/projet-1.PNG"/>
+                                <img src="img/projet-2.png"/>
                             </div>
                             <div class="box-projet-info">
-                                <h5>Portefolio</h5>
-                                <p><span class="box-projet-info-date"> Projet personnel</span> / Juillet 2021</p>
+                                <h5>Analyse de mouvement</h5>
+                                <p><span class="box-projet-info-date"> Projet d'école</span> / février à juin 2021</p>
                             </div>
-                    </div>
-                </a>
-                <a class="projet-a" href="https://github.com/hugo827/PDNI2020-2021" target="_blank">
-                    <div class="box-projet">
-                        <div class="box-projet-img">
-                            <img src="img/projet-2.png"/>
                         </div>
-                        <div class="box-projet-info">
-                            <h5>Analyse de mouvement</h5>
-                            <p><span class="box-projet-info-date"> Projet d'école</span> / février à juin 2021</p>
+                    </a>
+                </div>
+                <div class="projet-box">
+                    <a class="projet-a" href="#projects">
+                        <div class="box-projet">
+                            <div class="box-projet-img">
+                                <img src="img/projet-3.PNG"/>
+                            </div>
+                            <div class="box-projet-info">
+                                <h5>InitialGame - Site d'actualité</h5>
+                                <p><span class="box-projet-info-date"> Projet personnel</span></p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-                <a class="projet-a" href="#projects">
-                    <div class="box-projet">
-                        <div class="box-projet-img">
-                            <img src="img/projet-3.PNG"/>
-                        </div>
-                        <div class="box-projet-info">
-                            <h5>InitialGame - Site d'actualité</h5>
-                            <p><span class="box-projet-info-date"> Projet personnel</span></p>
-                        </div>
-                    </div>
-                </a>
-
+                    </a>
+                </div>
             </div>
         </section>
 
