@@ -287,11 +287,12 @@ body {
 }
 
 .resume-titre {
-    padding: 0 0 0 40px;
+    transform: translateY(-20px);
+    padding: 0 0;
     margin: 0 0;
     color: orange;
     font-size: 16px;
-    width: 1000px;
+    width: 100%;
     height: auto;
 }
 
