@@ -1,4 +1,60 @@
 @media (min-width:1001px) AND (max-width: 1600px) {
 
+    /* --------------------- fiche about ----------------------*/
+
+
+    .box-about {
+        width: 70%;
+        margin: 40px 0 40px 15% ;
+        padding: 10px 10px;
+    }
+
+    .box-about-left-top {
+        padding: 0 0;
+        display: inline-flex;
+    }
+
+
+    .profil-table {
+        margin: 0 0 0 5px;
+    }
+
+
+
+    .x {
+        margin: 0 0;
+    }
+    .z {
+        width: 95%;
+    }
+    .z:before {
+        content: ". . . . . . . . . . . . . . . . . . . . "
+        ". . . . . . . . . . . . . . . . . . . . "
+        ". . . . . . . . . . .";
+    }
+
+}
+
+
+@media (min-width:1001px) AND (max-width: 1200px) {
+
+    /*  -------------------- start of navbar ---------------- */
+
+    .navbar-name {
+        padding-right: 250px;
+    }
+
+
+    /* --------------------- fiche about ----------------------*/
+
+
+    .box-about-left-top {
+        display: inline-block;
+    }
+
+    .z:before {
+        content: ". . . . . . . . . . . . . . . . . . . . "
+        ". . . . . . . . . . . . . . . . . . . . ";
+    }
 
 }
